@@ -1,0 +1,31 @@
+.Header {
+    height: 80px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.57) -1px 1px 19px -3px;
+}
+
+.Header_list_items {
+    display: flex;
+    float: right;
+    top: 14px;
+    right: 500px;
+    /* left: 600px; */
+    position: relative;
+    padding: 10px;
+    list-style-type: none;
+}
+.Header_list_item{
+    padding-left: 50px;
+}
+.Header_inputWrapper {
+    width: 420px;
+    height: 37px;
+    border:1px solid #000;
+    border-radius: 5px;
+}
+.Combined_Details{
+    display: block;
+}
+.Combined_Details_hide{
+    display: none
+}

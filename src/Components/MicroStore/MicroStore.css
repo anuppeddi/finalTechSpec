@@ -1,0 +1,156 @@
+
+.surface_nav_bar {
+  position: relative;
+  background: #fff;
+  box-shadow: 10px 0px 30px 4px #f1f1f1;
+  height: 70px;
+  top: 120px;
+}
+  /* .surface_nav_bar h5 {
+    padding: 22px 0px 0px 80px;
+  } */
+  .techspec_container{
+    margin: 130px 130px 0px 130px
+  }
+  .techspec_container p{
+    color: #000;
+  }
+  /* .techspec_btn{
+    border: 5px solid skyblue;
+  } */
+  .techspec_btn_special{
+    border: 2px solid #000;
+    text-decoration: underline;
+  }
+  .review_btn_special {
+    border: 2px solid #000;
+    text-decoration: underline;
+  }
+  /* .review_btn:focus{
+  outline: none;
+  } */
+  .btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none!important;
+  }
+  
+  
+  /* *:focus {
+      outline: none;
+  } */
+  .tech_fields{
+    position: absolute;
+    left: 330px;
+    padding-left: 4px;
+    font-size: 18px
+  }
+  .tech_spec{
+    padding: 0px 0px 0px 4px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .Techpara{
+    padding: 0px 0px 10px 0px;
+  }
+  .displayField {
+    width: 277px;
+  }
+  .displayTechspec {
+    height: 170px;
+  }
+  .displayConnection{
+    height: 160px;
+  }
+  .displaySoftware{
+    height: 190px;
+  }
+  .displaySecurity{
+  height:60px;
+  
+  }
+  .displayFieldSecurity{
+  width:400px;
+  
+  
+  }
+  
+  /* reviews */
+  .review_container {
+    margin: 120px 0px 0px 0px;
+  }
+  .review_Title {
+    position: relative;
+    left: 80px;
+  }
+  .raview_row {
+    margin: 60px;
+  }
+  .review {
+    position: relative;
+    top: -54px;
+  }
+  .review p {
+    font-size: 150px;
+    color: #000;
+    font-family: serif;
+  }
+  .review_rating{
+  display: flex
+  }
+  .review_rating h5{
+    padding: 0px 0px 0px 10px;
+    display: inline-flex;
+    color: #000;
+    font-family: serif;
+  
+  }
+  /* i.fa.fa-star {
+    font-size: 16px;
+  } */
+  .progress_review{
+    padding-top: 2px;
+  
+  }
+  .progress-bar {
+    background:#000;
+  }
+  
+  .comments_container {
+    margin: 80px;
+    
+  }
+  .reiew_comments {
+    padding: 40px 50px 20px 0px;
+    background: #f2f2f2;
+    margin: 20px 10px 10px 0px;
+  }
+  .comment{
+    color: #000;
+  }
+  .descrption {
+    font-size: 18px;
+    color: #000;
+  }
+  .profile_icon {
+    height: 50px;
+    width: 50px;
+    background: #2e2e2e;
+    color: white;
+    margin: 0px 0px 0px 20px;
+    padding: 6px 0px 0px 15px;
+    border-radius: 30px;
+  }
+  .profile_name {
+    position: absolute;
+    top: 0;
+    left: 115px;
+  }
+  .rating_icon{
+    font-size: 35px;
+  }
+  .comment_Date {
+    float: right;
+    position: relative;
+    /* top: -35px; */
+    bottom: 35px;
+  }

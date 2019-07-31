@@ -1,0 +1,25 @@
+.tab-list {
+  /* position: relative; */
+  /* top: 0;
+  position: sticky; */
+  text-align: center;
+  /* top: 11px; */
+  padding:12px;
+  color: rgba(0,0,0,.6);
+  bottom: 41px;
+}
+  
+  .tab-list-item {
+    display: inline-block;
+    list-style: none;
+    font-size: 18px;
+    padding: 0.5rem 0.75rem;
+  }
+  
+  .tab-list-active {
+    background-color: white;
+    border: 2px solid #000;
+    color:#000;
+    text-decoration: underline  #0067b8 
+  }
+ 

@@ -1,0 +1,31 @@
+/* .product_Details {
+    border: 1px solid;
+    height: 222px;
+    margin: 100px 200px 100px 200px;
+    padding: 10px;
+} */
+.product_Details {
+    padding: 30px;
+    margin: 100px 100px 10px 100px;
+    box-shadow: rgba(0, 0, 0, 0.57) -1px 1px 19px -3px;
+}
+.product_Details_hide{
+    display: none;
+}
+
+.product_rate_review {
+    display: flex;
+}
+.product_numofreviews {
+    position: relative;
+    top: 20px;
+    width: 20px;
+    height: 22px;
+    background: lightgray;
+    left: 20px;
+}
+.buy_box {
+    position: relative;
+    left: 100px;
+    top: 44px;
+}
