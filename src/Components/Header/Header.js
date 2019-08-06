@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Data } from '../../Json/techspec';
+import  Data  from '../../Json/techspec.json';
 import Product from '../Product/Product';
 import MicroStore from '../MicroStore/MicroStore';
 import './Header.css'

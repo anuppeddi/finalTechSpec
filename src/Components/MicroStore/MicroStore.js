@@ -1,3 +1,4 @@
+
 import React, { Component} from 'react';
 import StarRatingComponent from 'react-star-rating-component';
 import './MicroStore.css';
@@ -72,7 +73,7 @@ class MicroStore extends Component{
                     return(
                       <div key={index}>
                       <h1 className="review_Title">  {item.title}</h1>
-                      <div className="row raview_row">
+                      <div className="row review_row">
                         <div className="col-md-2">
                           <div className="review">
                             <p>{item.rating}</p>
